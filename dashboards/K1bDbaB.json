@@ -1,0 +1,30 @@
+{
+  "pages": [
+    {
+      "id": "vwLhQTv",
+      "grid": {
+        "tiles": []
+      },
+      "showTitle": false,
+      "enableCrossFilters": true
+    }
+  ],
+  "owner": "getcoinbytes@gmail.com",
+  "listed": true,
+  "name": "Sample Project\u0027s default dashboard",
+  "showGrid": true,
+  "reloadWhenEventReceived": false,
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "getcoinbytes@gmail.com"
+    },
+    "lastModifiedOn": 1702964261973,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
