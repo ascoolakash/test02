@@ -1,4 +1,7 @@
- 
+
+  create or replace   view RAW.JAFFLE_SHOP.stg_payments
+  
+   as (
     select
     id as payment_id,
     orderid as order_id,
@@ -9,4 +12,5 @@
   as amount,
     created as created_at
 from raw.stripe.payment
- 
+  );
+
