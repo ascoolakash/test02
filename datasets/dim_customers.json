@@ -54,8 +54,15 @@
     "numPartitions": -1
   },
   "schema": {
-    "columns": [],
-    "userModified": true
+    "columns": [
+      {"name":"CUSTOMER_ID","type":"bigint","originalType":"NUMBER"},
+      {"name":"FIRST_NAME","type":"string","originalType":"VARCHAR","maxLength":16777216},
+      {"name":"LAST_NAME","type":"string","originalType":"VARCHAR","maxLength":16777216},
+      {"name":"FIRST_ORDER_DATE","type":"date","originalType":"DATE","timestampNoTzAsDate":true},
+      {"name":"MOST_RECENT_ORDER_DATE","type":"date","originalType":"DATE","timestampNoTzAsDate":true},
+      {"name":"NUMBER_OF_ORDERS","type":"bigint","originalType":"NUMBER"}
+    ],
+    "userModified": false
   },
   "dkuProperties": [],
   "metrics": {
