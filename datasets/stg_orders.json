@@ -43,6 +43,7 @@
     "mode": "table",
     "partitioningType": "custom",
     "normalizeDoubles": true,
+    "catalog": "raw",
     "table": "${NODE}_${projectKey}_STG_ORDERS",
     "schema": "jaffle_shop",
     "tableCreationMode": "auto",
