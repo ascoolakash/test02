@@ -4,4 +4,4 @@ select
     order_date,
     status
 from
-    "PC_DATAIKU_DB"."JAFFLE_SHOP"."ORDERS"
+    "RAW"."JAFFLE_SHOP"."ORDERS"
