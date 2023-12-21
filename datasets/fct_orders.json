@@ -54,8 +54,13 @@
     "numPartitions": -1
   },
   "schema": {
-    "columns": [],
-    "userModified": true
+    "columns": [
+      {"name":"ORDER_ID","type":"bigint","originalType":"NUMBER"},
+      {"name":"CUSTOMER_ID","type":"bigint","originalType":"NUMBER"},
+      {"name":"ORDER_DATE","type":"date","originalType":"DATE","timestampNoTzAsDate":true},
+      {"name":"AMOUNT","type":"double","originalType":"NUMBER"}
+    ],
+    "userModified": false
   },
   "dkuProperties": [],
   "metrics": {
