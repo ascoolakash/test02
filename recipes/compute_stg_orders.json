@@ -33,7 +33,7 @@
       "items": [
         {
           "ref": "stg_orders",
-          "appendMode": false
+          "appendMode": true
         }
       ]
     }
