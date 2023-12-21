@@ -54,7 +54,12 @@
     "numPartitions": -1
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {"name":"ORDER_ID","type":"bigint","originalType":"NUMBER"},
+      {"name":"CUSTOMER_ID","type":"bigint","originalType":"NUMBER"},
+      {"name":"ORDER_DATE","type":"date","originalType":"DATE","timestampNoTzAsDate":true},
+      {"name":"STATUS","type":"string","originalType":"VARCHAR","maxLength":16777216}
+    ],
     "userModified": true
   },
   "dkuProperties": [],
