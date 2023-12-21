@@ -4,5 +4,5 @@
             order_date,
             status
         from
-            raw.jaffle_shop.ORDERS
+            ORDERS
    
