@@ -1,5 +1,5 @@
 
-  create or replace   view RAW.JAFFLE_SHOP.stg_payments
+  create or replace   view stg_payments
   
    as (
     select
