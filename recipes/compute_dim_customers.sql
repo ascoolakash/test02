@@ -1,5 +1,5 @@
 create
-or replace transient table RAW.JAFFLE_SHOP.dim_customers as (
+or replace transient table dim_customers as (
     with customers as (
         select
             *
