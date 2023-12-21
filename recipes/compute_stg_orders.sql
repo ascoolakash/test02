@@ -2,7 +2,7 @@
   create or replace   stg_orders
   
    as (
-    with orders as (
+    
 
     select
         id as order_id,
@@ -12,8 +12,6 @@
 
     from raw.jaffle_shop.orders
 
-)
 
-select * from orders
   )
 
