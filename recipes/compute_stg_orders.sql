@@ -7,7 +7,7 @@ or replace view stg_orders as (
             order_date,
             status
         from
-            ORDERS
+            raw.jaffle_shop.ORDERS
     )
     select
         *
