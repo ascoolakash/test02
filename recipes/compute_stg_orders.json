@@ -3,7 +3,8 @@
   "neverRecomputeExistingPartitions": false,
   "optionalDependencies": false,
   "params": {
-    "allowMultipleConnections": false,
+    "allowMultipleConnections": true,
+    "mainConnectionDataset": "ORDERS",
     "displayExecutionPlan": true,
     "sqlPipelineParams": {
       "pipelineAllowStart": true,
