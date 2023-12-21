@@ -1,5 +1,5 @@
 create
-or replace transient table dim_customers_NEW as (
+or replace transient table dim_customers_thus_dec_21_2023 as (
     with customers as (
         select
             *
