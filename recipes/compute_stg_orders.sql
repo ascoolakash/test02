@@ -1,8 +1,7 @@
-     select
-            id as order_id,
-            user_id as customer_id,
-            order_date,
-            status
-        from
-            "PC_DATAIKU_DB"."JAFFLE_SHOP"."ORDERS"
-   
+select
+    id as order_id,
+    user_id as customer_id,
+    order_date,
+    status
+from
+    "PC_DATAIKU_DB"."JAFFLE_SHOP"."ORDERS"
