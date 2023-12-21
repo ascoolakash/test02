@@ -4,5 +4,5 @@
             order_date,
             status
         from
-            "RAW"."JAFFLE_SHOP"."ORDERS"
+            "PC_DATAIKU_DB"."JAFFLE_SHOP"."ORDERS"
    
