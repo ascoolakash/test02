@@ -15,5 +15,5 @@
 )
 
 select * from orders
-  );
+  )
 
