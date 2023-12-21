@@ -1,5 +1,5 @@
  
-  create or replace   view RAW.JAFFLE_SHOP.stg_orders
+  create or replace   view stg_orders
   
    as (
     with orders as (
