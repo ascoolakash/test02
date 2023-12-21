@@ -2,7 +2,7 @@
   create or replace   view stg_orders
   
    as (
-    with order as (
+    with orde as (
 
     select
         id as order_id,
@@ -14,6 +14,6 @@
 
 )
 
-select * from order
+select * from orde
   );
 
