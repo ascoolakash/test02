@@ -20,11 +20,11 @@
     "main": {
       "items": [
         {
-          "ref": "CUSTOMERS",
+          "ref": "stg_customers",
           "deps": []
         },
         {
-          "ref": "ORDERS",
+          "ref": "stg_orders",
           "deps": []
         }
       ]
