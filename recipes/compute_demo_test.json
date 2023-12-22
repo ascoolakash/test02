@@ -38,7 +38,7 @@
     "main": {
       "items": [
         {
-          "ref": "demo_test_02",
+          "ref": "demo_test",
           "appendMode": false
         }
       ]
