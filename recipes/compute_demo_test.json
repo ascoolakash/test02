@@ -38,7 +38,7 @@
     "main": {
       "items": [
         {
-          "ref": "dim_customers",
+          "ref": "demo_test",
           "appendMode": false
         }
       ]
