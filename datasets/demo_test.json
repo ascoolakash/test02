@@ -54,8 +54,19 @@
     "numPartitions": -1
   },
   "schema": {
-    "columns": [],
-    "userModified": true
+    "columns": [
+      {"name":"ORDER_ID","type":"bigint","originalType":"NUMBER"},
+      {"name":"CUSTOMER_ID","type":"bigint","originalType":"NUMBER"},
+      {"name":"FIRST_NAME","type":"string","originalType":"VARCHAR","maxLength":16777216},
+      {"name":"LAST_NAME","type":"string","originalType":"VARCHAR","maxLength":16777216},
+      {"name":"ORDER_DATE","type":"date","originalType":"DATE","timestampNoTzAsDate":true},
+      {"name":"STATUS","type":"string","originalType":"VARCHAR","maxLength":16777216},
+      {"name":"PAYMENT_ID","type":"bigint","originalType":"NUMBER"},
+      {"name":"PAYMENT_METHOD","type":"string","originalType":"VARCHAR","maxLength":16777216},
+      {"name":"AMOUNT","type":"double","originalType":"NUMBER"},
+      {"name":"CREATED_AT","type":"date","originalType":"DATE","timestampNoTzAsDate":true}
+    ],
+    "userModified": false
   },
   "dkuProperties": [],
   "metrics": {
