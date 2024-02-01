@@ -156,7 +156,7 @@
     },
     "dkuProperties": []
   },
-  "name": "Sample Project",
+  "name": "Sample Project (test03)",
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -220,7 +220,7 @@
     "lastModifiedOn": 1702964261971,
     "extendedProperties": {}
   },
-  "shortDesc": "The project *Sample Project* was created by getcoinbytes on Dec 19th 2023",
+  "shortDesc": "The project *Sample Project* was created by getcoinbytes on Dec 19th 2023\nThe project *SAMPLE_PROJECT_TEST03* was copied from *SAMPLEPROJECT* by getcoinbytes on Feb 01st 2024",
   "tags": [
     "duplicated"
   ],
