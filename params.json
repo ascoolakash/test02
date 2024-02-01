@@ -157,7 +157,6 @@
     "dkuProperties": []
   },
   "name": "Sample Project",
-  "projectStatus": "Sandbox",
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -222,7 +221,9 @@
     "extendedProperties": {}
   },
   "shortDesc": "The project *Sample Project* was created by getcoinbytes on Dec 19th 2023",
-  "tags": [],
+  "tags": [
+    "duplicated"
+  ],
   "customFields": {},
   "checklists": {
     "checklists": [
