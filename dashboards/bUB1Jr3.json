@@ -1,0 +1,35 @@
+{
+  "checklists": {
+    "checklists": []
+  },
+  "creationTag": {
+    "lastModifiedBy": {
+      "login": "dataiku-admin"
+    },
+    "lastModifiedOn": 1591036325097,
+    "versionNumber": 0
+  },
+  "customFields": {},
+  "listed": true,
+  "name": "CC Fraud Advanced Code's default dashboard",
+  "owner": "dataiku-admin",
+  "pages": [
+    {
+      "enableCrossFilters": true,
+      "grid": {
+        "tiles": []
+      },
+      "id": "SWHpdGr",
+      "showTitle": false
+    }
+  ],
+  "showGrid": true,
+  "tags": [],
+  "versionTag": {
+    "lastModifiedBy": {
+      "login": "dataiku-admin"
+    },
+    "lastModifiedOn": 1591036325097,
+    "versionNumber": 0
+  }
+}

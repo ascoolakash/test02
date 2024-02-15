@@ -1,0 +1,59 @@
+{
+  "type": "python",
+  "neverRecomputeExistingPartitions": false,
+  "optionalDependencies": false,
+  "params": {
+    "envSelection": {
+      "envMode": "INHERIT",
+      "envName": "py36"
+    },
+    "containerSelection": {
+      "containerMode": "INHERIT"
+    },
+    "skipPrerunValidate": false
+  },
+  "customMeta": {
+    "kv": {}
+  },
+  "redispatchPartitioning": false,
+  "maxRunningActivities": 0,
+  "inputs": {
+    "main": {
+      "items": [
+        {
+          "ref": "ecommerce_transactions",
+          "deps": []
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "main": {
+      "items": [
+        {
+          "ref": "ecommerce_transactions_with_ip",
+          "appendMode": false
+        }
+      ]
+    }
+  },
+  "versionTag": {
+    "versionNumber": 17,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1592932451770
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "dataiku-admin"
+    },
+    "lastModifiedOn": 1591036816320
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "dataSpec": {
+    "inputDatasetSmartName": "ecommerce_transactions_with_ip_prepared",
+    "datasetSelection": {
+      "useMemTable": false,
+      "filter": {
+        "distinct": false,
+        "enabled": false
+      },
+      "partitionSelectionMethod": "ALL",
+      "latestPartitionsN": 1,
+      "ordering": {
+        "enabled": false,
+        "rules": []
+      },
+      "samplingMethod": "HEAD_SEQUENTIAL",
+      "maxRecords": 100000,
+      "targetRatio": 0.02,
+      "withinFirstN": -1,
+      "maxReadUncompressedBytes": -1
+    },
+    "autoRefreshSample": true,
+    "refreshTrigger": 0,
+    "containerSelection": {
+      "containerMode": "INHERIT"
+    }
+  },
+  "rootCard": {
+    "type": "worksheet_root",
+    "confidenceLevel": 0.95,
+    "showConfidenceInterval": false,
+    "cards": [
+      {
+        "type": "univariate_header",
+        "showHistogram": true,
+        "showQuantile": true,
+        "showFrequencyTable": false,
+        "showSummary": true,
+        "showBoxPlot": true,
+        "xColumns": [
+          {
+            "name": "Quantity",
+            "type": "CONTINUOUS"
+          }
+        ],
+        "cards": [
+          {
+            "type": "column_card",
+            "column": {
+              "name": "Quantity",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "numerical_histogram",
+                "showBoxPlot": true,
+                "showHistogram": true,
+                "binningMode": "AUTO",
+                "nbBins": 25,
+                "customBinningBoundaries": [],
+                "column": {
+                  "name": "Quantity",
+                  "type": "CONTINUOUS"
+                },
+                "id": "XYtCBAv"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "Quantity",
+                  "type": "CONTINUOUS"
+                },
+                "id": "V6gNa4u"
+              },
+              {
+                "type": "quantile_table",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "column": {
+                  "name": "Quantity",
+                  "type": "CONTINUOUS"
+                },
+                "id": "CHUXfzc"
+              }
+            ],
+            "id": "JfHORjM"
+          }
+        ],
+        "id": "JbUzJb9"
+      }
+    ],
+    "id": "UiOK1S8"
+  },
+  "name": "Worksheet",
+  "versionTag": {
+    "versionNumber": 1,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1592491292174
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1592491281768
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

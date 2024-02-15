@@ -1,0 +1,38 @@
+{
+  "tags": {
+    "python": {
+      "color": "#d66b9b"
+    },
+    "recipe-editor": {
+      "color": "#1ac2ab"
+    },
+    "visual recipe": {
+      "color": "#FFD83D"
+    },
+    "processor": {
+      "color": "#123883"
+    },
+    "duplicated": {
+      "color": "#3A85AD"
+    },
+    "section:Developer": {},
+    "git": {
+      "color": "#00a55a"
+    },
+    "plugin": {
+      "color": "#77bec2"
+    },
+    "downloads": {},
+    "code environment": {
+      "color": "#d66b9b"
+    },
+    "imported": {
+      "color": "#263238"
+    },
+    "json": {
+      "color": "#90a8b7"
+    },
+    "tutorial": {},
+    "academy": {}
+  }
+}
