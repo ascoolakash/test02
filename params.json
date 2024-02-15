@@ -15,7 +15,8 @@
   "additionalDashboardUsers": {
     "users": []
   },
-  "tutorialProject": false,
+  "tutorialProject": true,
+  "tutorialId": "DKU_TUT_PLUGINDEV",
   "settings": {
     "flowAnchorSourcesAndSinks": true,
     "flowDisplaySettings": {
@@ -139,7 +140,8 @@
     },
     "dkuProperties": []
   },
-  "name": "Plugin Dev",
+  "name": "Plugin Dev for Akash Saurabh",
+  "projectStatus": "Sandbox",
   "imgPattern": 6,
   "showInitials": false,
   "metrics": {
