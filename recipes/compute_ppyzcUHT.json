@@ -3,7 +3,14 @@
   "neverRecomputeExistingPartitions": false,
   "optionalDependencies": false,
   "params": {
-    "customConfig": {},
+    "customConfig": {
+      "plot_title": "US Transactions Only",
+      "x_axis": "PurchaseHour",
+      "y_axis": "CustomerAge",
+      "z_axis": "OrderTotal",
+      "filter_column": "MerchantIP_country",
+      "filter_value": "United States"
+    },
     "containerSelection": {
       "containerMode": "INHERIT"
     }
